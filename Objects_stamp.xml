@@ -1,0 +1,7 @@
+<entry name="{{ObjName}}">
+  <ip-netmask>{{ObjIPNetmask}}</ip-netmask>
+  <description>{{ObjDescription}}</description>
+  <tag>
+    <member>{{TagName}}</member>
+  </tag>
+</entry>
