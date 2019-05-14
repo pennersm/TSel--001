@@ -1,0 +1,70 @@
+      <syslog>
+        <entry name="SFN_GTP">
+          <server>
+            <entry name="SFN_gtp">
+              <transport>UDP</transport>
+              <port>5516</port>
+              <format>BSD</format>
+              <server>{{ SFN_SERVER }}</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+        <entry name="SFN_TRHEAT">
+          <server>
+            <entry name="SFN_threat">
+              <transport>UDP</transport>
+              <port>5514</port>
+              <format>BSD</format>
+              <server>{{ SFN_SERVER }}</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+        <entry name="SFN_IoT">
+          <server>
+            <entry name="SFN_iot">
+              <transport>UDP</transport>
+              <port>5510</port>
+              <format>BSD</format>
+              <server>{{ SFN_SERVER }}</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+      </syslog>
+      <syslog>
+        <entry name="SFN_GTP">
+          <server>
+            <entry name="SFN_gtp">
+              <transport>UDP</transport>
+              <port>5516</port>
+              <format>BSD</format>
+              <server>192.168.1.7</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+        <entry name="SFN_TRHEAT">
+          <server>
+            <entry name="SFN_threat">
+              <transport>UDP</transport>
+              <port>5514</port>
+              <format>BSD</format>
+              <server>192.168.1.7</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+        <entry name="SFN_IoT">
+          <server>
+            <entry name="SFN_iot">
+              <transport>UDP</transport>
+              <port>5510</port>
+              <format>BSD</format>
+              <server>192.168.1.7</server>
+              <facility>LOG_USER</facility>
+            </entry>
+          </server>
+        </entry>
+      </syslog>
