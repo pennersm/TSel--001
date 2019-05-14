@@ -60,7 +60,7 @@
       <tunnel-management>yes</tunnel-management>
     </gtpu-allowed-messages>
     <user-location>yes</user-location>
-    <packet-capture>yes</packet-capture>
+    <packet-capture>no</packet-capture>
   </gtp-log>
-  <description>Tunnel Management only PLUS all alerts</description>
+  <description>Log Tunnel Mgmt all alerts NOT FOR PRODUCTION</description>
 </entry>
