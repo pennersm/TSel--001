@@ -1,0 +1,12 @@
+<entry name="{{SFNStream}}toSFN35">
+   <match-list>
+       <entry name="SFN35_{{SFNStream}}">
+       <send-syslog>
+         <member>{{SFNStream}}</member>
+       </send-syslog>
+       <log-type>{{SFNStream}}</log-type>
+       <filter>All Logs</filter>
+       <send-to-panorama>no</send-to-panorama>
+     </entry>
+   </match-list>
+</entry>

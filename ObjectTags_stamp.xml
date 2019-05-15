@@ -1,4 +1,4 @@
-<entry name="{{ TagName }}">
-        <color>{{ TagColor }}</color>
-        <comments>{{ TagComment }}</comments>
+<entry name="{{TagName}}">
+        <color>{{TagColor}}</color>
+        <comments>{{TagComment}}</comments>
 </entry>

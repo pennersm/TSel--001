@@ -1,0 +1,11 @@
+<entry name="{{SFNStream}}toSFN35">
+   <server>
+     <entry name="SFN35_{{SFNStream}}">
+       <transport>UDP</transport>
+       <port>{{Port}}</port>
+       <format>BSD</format>
+       <server>{{ServerIP}}</server>
+       <facility>LOG_USER</facility>
+     </entry>
+   </server>
+</entry>
