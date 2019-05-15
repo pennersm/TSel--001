@@ -2,7 +2,7 @@
    <match-list>
        <entry name="SFN35_{{SFNStream}}">
        <send-syslog>
-         <member>{{SFNStream}}</member>
+         <member>{{SFNStream}}toSFN35</member>
        </send-syslog>
        <log-type>{{SFNStream}}</log-type>
        <filter>All Logs</filter>

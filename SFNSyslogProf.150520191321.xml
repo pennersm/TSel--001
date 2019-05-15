@@ -2,7 +2,7 @@
    <match-list>
        <entry name="SFN35_gtp">
        <send-syslog>
-         <member>gtp</member>
+         <member>gtptoSFN35</member>
        </send-syslog>
        <log-type>gtp</log-type>
        <filter>All Logs</filter>
@@ -13,7 +13,7 @@
    <match-list>
        <entry name="SFN35_threat">
        <send-syslog>
-         <member>threat</member>
+         <member>threattoSFN35</member>
        </send-syslog>
        <log-type>threat</log-type>
        <filter>All Logs</filter>
