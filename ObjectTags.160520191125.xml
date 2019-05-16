@@ -1,0 +1,12 @@
+<entry name="RAN-BLACK">
+        <color>color38</color>
+        <comments>Access Networks</comments>
+</entry>
+<entry name="EPC-BLUE">
+        <color>color24</color>
+        <comments>EPC</comments>
+</entry>
+<entry name="EXT-RED">
+        <color>color1</color>
+        <comments>EXPOSED</comments>
+</entry>
