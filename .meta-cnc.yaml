@@ -6,15 +6,15 @@
 # ---------------------------------------------------------------------
 # skillet preamble information used by panhandler
 # unique snippet name
-name: SkilletStamper_150520191321
+name: SkilletStamper_160520191103
 # label used for menu selection
-label: a
-description: q
+label: TSel test label
+description: description
 type: panos
 extends:
 labels:
   collection:
-    - x
+    - collection
 # end of preamble section
 # ---------------------------------------------------------------------
 # variables section
@@ -33,19 +33,19 @@ snippets:
 #
  - name: ObjectTags
    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/tag
-   file: ObjectTags.150520191321.xml
+   file: ObjectTags.160520191103.xml
 
  - name: Objects
    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address
-   file: Objects.150520191321.xml
+   file: Objects.160520191103.xml
 
  - name: SFNSyslogSrv
    xpath: /config/shared/log-settings/syslog
-   file: SFNSyslogSrv.150520191321.xml
+   file: SFNSyslogSrv.160520191103.xml
 
  - name: SFNSyslogProf
    xpath: /config/shared/log-settings/profiles
-   file: SFNSyslogProf.150520191321.xml
+   file: SFNSyslogProf.160520191103.xml
 
 #---------------------------------------------------------------------
 # Static Section from seconf Worksheet (no variables at all)

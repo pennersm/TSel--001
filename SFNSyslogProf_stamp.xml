@@ -1,10 +1,10 @@
-<entry name="{{SFNStream}}toSFN35">
+<entry name="{{FWLogStream}}toSFN35">
    <match-list>
-       <entry name="SFN35_{{SFNStream}}">
+       <entry name="SFN35_{{FWLogStream}}">
        <send-syslog>
-         <member>{{SFNStream}}toSFN35</member>
+         <member>{{FWLogStream}}toSFN35</member>
        </send-syslog>
-       <log-type>{{SFNStream}}</log-type>
+       <log-type>{{FWLogStream}}</log-type>
        <filter>All Logs</filter>
        <send-to-panorama>no</send-to-panorama>
      </entry>

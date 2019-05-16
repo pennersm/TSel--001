@@ -1,3 +1,14 @@
+<entry name="{{FWLogStream}}toSFN35">
+   <server>
+     <entry name="SFN35_{{FWLogStream}}">
+       <transport>UDP</transport>
+       <port>{{SFNPort}}</port>
+       <format>BSD</format>
+       <server>{{SFNServerIP}}</server>
+       <facility>LOG_USER</facility>
+     </entry>
+   </server>
+</entry>
 <entry name="threattoSFN35">
    <server>
      <entry name="SFN35_threat">

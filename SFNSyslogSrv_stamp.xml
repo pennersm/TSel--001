@@ -1,10 +1,10 @@
-<entry name="{{SFNStream}}toSFN35">
+<entry name="{{FWLogStream}}toSFN35">
    <server>
-     <entry name="SFN35_{{SFNStream}}">
+     <entry name="SFN35_{{FWLogStream}}">
        <transport>UDP</transport>
-       <port>{{Port}}</port>
+       <port>{{SFNPort}}</port>
        <format>BSD</format>
-       <server>{{ServerIP}}</server>
+       <server>{{SFNServerIP}}</server>
        <facility>LOG_USER</facility>
      </entry>
    </server>
